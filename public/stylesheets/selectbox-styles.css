@@ -1,0 +1,43 @@
+
+div.clears, span.clears { clear: both; margin: 0; padding: 0; }
+
+/*#arrowImg {  background: url("../images/arrow_down.png") no-repeat scroll right center transparent;   
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    width: 6px;
+    z-index: 10000; }*/
+
+/*div.selectME a:hover { color: #666 !important; }*/
+
+div.selectME .middle { float: left; position: relative;/* width: 100%;*/ }
+
+div.selectME div.first { background-color: #434343; border: 0 none; border-radius: 14px 14px 14px 14px; float: left; height: 32px; margin: 0 0 12px; overflow: hidden; padding: 0 14px; position: relative; white-space: nowrap; cursor: pointer; }
+
+div.selectME div.first span.selectME { background: url("../images/arrow_down.png") no-repeat scroll right center transparent; color: #CFCFCF; display: block; font: 12px/31px 'Lato', Verdana, Arial, Helvetica, sans-serif; letter-spacing: normal; margin: 0; padding: 0 14px 0 0; }
+
+div.selectME div.first a, div.selectME div.first a:visited { display:block; padding:0; }
+
+div.selectME ul { clear: none; float: left; line-height: normal; list-style-type: none; margin: 32px 0 0 4px; padding: 0; position: absolute; width: 93%; z-index: 103; }
+
+.option div.selectME ul { }
+
+div.selectME ul li { background-color: #CFCFCF; border-radius: 10px 10px 10px 10px; clear: left; display: none; float: left; margin: 1px 0 0 !important; padding: 5px 0 !important; position: static; text-align: left; width: 100%; z-index: 104; }
+
+div.selectME ul li a, div.selectME ul li a:visited { border-radius:0; color: #434343; font-family: 'Lato', Verdana, Arial, Helvetica, sans-serif; text-decoration:none; display:block; padding: 4px 8px 4px 8px; margin: 0; font-size: 12px; }
+
+.left_part .box div.selectME ul li a, .left_part .box div.selectME ul li a:visited { background: none repeat scroll 0 0 transparent; border-radius: 0 0 0 0; display: block; margin: 0; padding: 0 10px; }
+
+.left_part .box div.selectME ul li:hover { background-color: #AEAEAE; }
+
+/*.left_part .box div.selectME ul li:hover a{ color: #FFFCFC;  } */
+
+ 
+    
+/*-----------------------ad for check box and redio button-------------*/
+
+.checkbox, .radio { width: 19px; height: 25px; padding: 0 5px 0 0; background: url(../images/checkbox.png) no-repeat; display: block; clear: left; float: left; }
+
+.radio { background: url(../images/radio.png) no-repeat; }
+
+.select { position: absolute; width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */ height: 21px; padding: 0 24px 0 0px; color: #fff; font: 12px/21px arial, sans-serif; background: url(select.gif) no-repeat; overflow: hidden; }

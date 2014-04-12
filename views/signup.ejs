@@ -1,0 +1,116 @@
+    <% layout('layout');%>
+<div id="page_container">
+        <div class="container">
+            <div class="left_part">
+                <div class="create_newaccount">
+                    <h2><span>create </span>new account</h2>
+                    <div class="box">
+                        <div class="account_info">
+                            <h3>Account Information</h3>
+                            <div class="Searchform">
+                            <form id="new_user" class="new_user" method="post" action="/signup" accept-charset="UTF-8">
+                                <input name="firstname" type="text" value="First Name" />
+                                <input name="lastname" type="text" value="Last Name"/>
+                                <input name="email" type="text" value="Email-id"/>
+                                <div class="single_option">
+                                    <label> Gender</label>
+                                    <div class="radio_btn">
+                                        <label>
+                                        <input type="radio" name="gender" class="styled" value="1" />
+                                        male </label>
+                                    </div>
+                                    <div class="radio_btn">
+                                        <label>
+                                        <input type="radio" name="radio" class="styled" value="2" />
+                                        female </label>
+                                    </div>
+                                </div>
+                                <input name="from" type="text" value="From" />
+                                <input name="username" type="text" value="Choose user name"/>
+                                <input name="password" type="password" value="" />
+                                <input name="confirmpassword" type="password" value=""/>
+                                <input type="submit" value="Creat account" class="createlogin">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="create_account"> <a href="#" class="fb_account">create account using</a>
+                            <p>Already a member?</p>
+                            <a href="/signin" class="login">login</a> </div>
+                    </div>
+                </div>
+                <div class="banner_ads">
+                    <div class="shoping_add float_l"> <img src="images/add_shop.png" alt="add"> <a href="#" class="button shopingadd">add now</a> </div>
+                    <div class="mobapp_add float_r"> <img src="images/app_bg.png" alt="">
+                        <p class="caption">Your 24 Hour Guide to Drinks Deal</p>
+                        <a href="#" class="button new_app">Download</a> </div>
+                </div>
+            </div>
+            <div class="right_part ">
+                <div class="todayevent">
+                    <h2><span>Today's </span>Event</h2>
+                    <div class="box">
+                        <ul class="date">
+                            <li class="active"><a href="#">
+                                <h4>Sun</h4>
+                                <span>21</span></a> </li>
+                            <li><a href="#">
+                                <h4>Mon</h4>
+                                <span>22</span></a> </li>
+                            <li><a href="#">
+                                <h4>Tues</h4>
+                                <span>23</span></a> </li>
+                            <li><a href="#">
+                                <h4>Wed</h4>
+                                <span>24</span></a> </li>
+                            <li><a href="#">
+                                <h4>Thu</h4>
+                                <span>25</span></a> </li>
+                            <li><a href="#">
+                                <h4>Fri</h4>
+                                <span>26</span></a> </li>
+                            <li class="last"><a href="#">
+                                <h4>Sat</h4>
+                                <span>27</span></a> </li>
+                        </ul>
+                        <ul class="eventlist">
+                            <li>
+                                <h3>Art Mirage</h3>
+                                <p>10:00 am. Thavibu Gallery</p>
+                            </li>
+                            <li>
+                                <h3>HAPPY HOURS Sunset in the Park</h3>
+                                <p>10:00 am. Thavibu Gallery</p>
+                            </li>
+                            <li>
+                                <h3>NIGHTLIFE Sunset in the Park</h3>
+                                <p>10:00 am. Thavibu Gallery</p>
+                            </li>
+                            <li>
+                                <h3>MUSICALS Reya The Musical</h3>
+                                <p>10:00 am. Thavibu Gallery</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="shoping_add"> <img src="images/add_shop.png" alt="add"> <a href="#" class="button shopingadd">add now</a> </div>
+                <div class="mobapp_add"> <img src="images/app_bg.png" alt="">
+                    <p class="caption">Your 24 Hour Guide to Drinks Deal</p>
+                    <a href="#" class="button new_app">Download</a> </div>-->
+                <div class="findus_socialmidea">
+                    <h2><span>find </span>us</h2>
+                    <div class="box">
+                        <ul class="eventlist">
+                            <li>
+                                <h3 class="facebook">Facebook</h3>
+                                <p>like us on facebook</p>
+                            </li>
+                            <li>
+                                <h3 class="twitter">Twitter</h3>
+                                <p>find us on twitter for latest feeds</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><%= title %></title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+<link rel='stylesheet' href='/stylesheets/selectbox-styles.css' />
+<link rel='stylesheet' href='/stylesheets/jquery-ui.css' />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<script src="/js/html5shiv-printshiv.js"></script>
+<script src="/js/jquery-1.10.2.js"></script>
+<script src="/js/jquery-ui-1.10.4.js"></script>
+<script src="/js/jquery-ui-1.10.4.min.js"></script>
+<script type="text/javascript" src="'/js//PIE.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="wrapper">
+<script>
+$(function() {
+$( "#datepicker" ).datepicker({dateFormat: 'yy-mm-dd'});
+$( "#datepicker2" ).datepicker({dateFormat: 'yy-mm-dd'});
+});
+</script>
+    <div id="header_wrapper" class="banner">
+        <div class="header">
+            <div class="logo"><a href="/"><img src="/images/logo.png" alt="Night Life Locator" title="Night Life Locator"></a></div>
+            <div class="top_section">
+                <ul class="socialmedia_top">
+                    <li><a href="#" class=""><img src="/images/fb_icon.png" alt="facebook"></a></li>
+                    <li><a href="#" class=""><img src="/images/twt_icon.png" alt="twitter"></a></li>
+                </ul>
+                <ul class="top_nav">
+                    <li><a href="/signin" class="sign">sign in</a></li>
+                    <li><a href="#" class="myprofile">my profile</a></li>
+                    <li><a href="#" class="mytrip">my trip</a></li>
+                    <li><a href="#" class="feedback">feedback</a></li>
+                    <li><a href="#" class="info">info</a></li>
+                    <li><a href="#" class="maps">maps</a></li>
+                </ul>
+            </div>
+            <div class="main_nav">
+                <ul>
+                    <li class="active"><a href="/" class="topten">Home</a></li>
+                    <li><a href="#" class="AreaGuides">AreaGuides</a></li>
+                    <li><a href="#" class="Attractions">Attractions</a></li>
+                    <li><a href="#" class="Restaurants">Restaurants</a></li>
+                    <li><a href="#" class="Nightlife">Nightlife</a></li>
+                    <li><a href="#" class="Activities">Activities</a></li>
+                </ul>
+            </div>
+            <div class="quick_access">
+                <h1><span>Quick Search</span></h1>
+                <select>
+                    <option>Category</option>
+                    <option>Category </option>
+                </select>
+                <input id="datepicker" name="search[start_date]" placeholder="From" type="text" />
+                      <input id="datepicker2" name="search[end_date]" placeholder="To" type="text" />
+
+                <input type="button" value="Go Get It" />
+            </div>
+        </div>
+    </div>
+    <%-body %>
+    
+    <div id="footer_wrap">
+        <footer class="footer"> © 2012 - 2013 All Rights Reserved.   Powered by Colorgrapes.com </footer>
+    </div>
+</div>
+</body>
+</html>

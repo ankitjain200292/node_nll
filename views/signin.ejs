@@ -1,0 +1,116 @@
+    <% layout('layout');%>
+<div id="page_container">
+       <div class="container">
+         <div class="left_part">
+
+
+  <div class="create_newaccount">
+    <h2><span>Sign </span>In</h2>
+    <div class="box">
+      <div class="account_info">
+        <h3></h3>
+        <div class="Searchform">
+        <% if (message.length > 0) { %>
+		<div class="alert alert-danger"><%= message %></div>
+	<% } %>
+          <form accept-charset="UTF-8" action="/login" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0w9Sr38TY0HL6MZaoVjoEFulL9zhLcHfXrjLDg8bIdE=" /></div>
+
+            <input id="session_username" name="username" placeholder="Username" type="text" />
+
+
+            <input id="session_password" name="password" placeholder="Password" type="password" />
+
+
+            <input class=".quick_access" name="commit" type="submit" value="SignIn" />
+
+</form>          
+        </div>
+      </div>
+        
+      <div class="create_account">
+        <p>Don't have account yet?</p>
+
+        <a class="login" href="/signup">Signup</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+         <div class="right_part ">
+    <div class="todayevent">
+      <h2><span>Night</span>life</h2>
+      <!--<div class="box">
+          <ul class="date">
+              <li class="active"><a href="#">
+                  <h4>Sun</h4>
+                  <span>21</span></a> </li>
+              <li><a href="#">
+                  <h4>Mon</h4>
+                  <span>22</span></a> </li>
+              <li><a href="#">
+                  <h4>Tues</h4>
+                  <span>23</span></a> </li>
+              <li><a href="#">
+                  <h4>Wed</h4>
+                  <span>24</span></a> </li>
+              <li><a href="#">
+                  <h4>Thu</h4>
+                  <span>25</span></a> </li>
+              <li><a href="#">
+                  <h4>Fri</h4>
+                  <span>26</span></a> </li>
+              <li class="last"><a href="#">
+                  <h4>Sat</h4>
+                  <span>27</span></a> </li>
+          </ul>
+          <ul class="eventlist">
+              <li>
+                  <h3>Art Mirage</h3>
+                  <p>10:00 am. Thavibu Gallery</p>
+              </li>
+              <li>
+                  <h3>HAPPY HOURS Sunset in the Park</h3>
+                  <p>10:00 am. Thavibu Gallery</p>
+              </li>
+              <li>
+                  <h3>NIGHTLIFE Sunset in the Park</h3>
+                  <p>10:00 am. Thavibu Gallery</p>
+              </li>
+              <li>
+                  <h3>MUSICALS Reya The Musical</h3>
+                  <p>10:00 am. Thavibu Gallery</p>
+              </li>
+          </ul>
+      </div>-->
+    </div>
+    <div class="shoping_add">
+
+      <img alt="add" src="/images/add_shop.png" />
+
+      <a href="#" class="button shopingadd">add now</a> </div>
+    <div class="mobapp_add"> 
+      <img alt="" src="/images/app_bg.png" />                 
+      <p class="caption">Your 24 Hour Guide to Drinks Deal</p>
+      <a href="#" class="button new_app">Download</a> </div>
+    <div class="findus_socialmidea">
+      <h2><span>find </span>us</h2>
+      <div class="box">
+        <ul class="eventlist">
+          <li>
+            <h3 class="facebook"><a href="http://facebook.com/nightlifelocator">Facebook</a></h3>
+            <p>like us on facebook</p>
+          </li>
+          <li>
+            <h3 class="twitter"><a href="http://twitter.com/nightlifelocator">Twitter</a></h3>
+            <p>find us on twitter for latest feeds</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+       </div>
+
+     </div>
