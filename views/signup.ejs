@@ -8,6 +8,12 @@
                         <div class="account_info">
                             <h3>Account Information</h3>
                             <div class="Searchform">
+                            <!-- show any messages that come back with authentication -->
+	<% if (message.length > 0) { %>
+	scz bvjhdxbv hfdxb vjhdxfbvjd
+		<div class="alert alert-danger"><%= message %></div>
+	<% } %>
+                            
                             <form id="new_user" class="new_user" method="post" action="/signup" accept-charset="UTF-8">
                                 <input name="firstname" type="text" value="First Name" />
                                 <input name="lastname" type="text" value="Last Name"/>

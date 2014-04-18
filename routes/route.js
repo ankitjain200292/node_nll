@@ -1,5 +1,5 @@
 // app/routes.js
-
+var mongoose = require('mongoose');
 var user = require('./user');
 var routes = require('./index');
 var AreaGuide  = require('../models/areaguide');
